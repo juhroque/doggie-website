@@ -1,8 +1,9 @@
 import './App.css'
-import BreedButton from './components/BreedButton'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import BreedDetails from './components/BreedDetails';
 import DoggieRandom from './components/DoggieRandom';
+import HomePage from './components/HomePage';
+
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<BreedButton />}>
+        <Route path="/" element={<HomePage />}>
         </Route>
         <Route path="/breed/:id" element={<BreedDetails/>}></Route>
         <Route path="/random" element={<DoggieRandom/>}></Route>

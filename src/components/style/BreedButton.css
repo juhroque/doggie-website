@@ -1,22 +1,16 @@
-.doggie-breeds-btns {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+button {
+    background-color: #ead78a;
+    border: 1px solid #eecf52;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
 
-    button {
-        background-color: #d68484;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        padding: 10px;
-        width: 60%;
-        cursor: pointer;
-        transition: background-color 0.3s;
+    cursor: pointer;
+    transition: background-color 0.3s;
 
-        &:hover {
-            background-color: #e0e0e0;
-        }
+    &:hover {
+        background-color: #eb8552;
     }
+    
 }

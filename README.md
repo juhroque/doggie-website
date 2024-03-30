@@ -8,7 +8,8 @@ I'm using the free "https://api.thedogapi.com" to fetch the data!
 
 - [x] Fecth at least the breeds data
 - [x] Random dog image button
-- [ ] Clean the code by separating the components into pages
+- [x] Clean the code by separating the components into pages
 - [ ] Custom hooks
+- [ ] Better styling
 - [ ] ... thinking!
 
